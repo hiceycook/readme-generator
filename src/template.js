@@ -1,6 +1,6 @@
-const generateReadMe = res => {
+const generateReadMe = (res) => {
     return `
-    # ${res.projectName}
+    # ${res.projectName.toUpperCase()}
 
     ## Table of Contents
 
