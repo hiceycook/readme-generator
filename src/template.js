@@ -1,8 +1,8 @@
 const generateReadMe = res => {
     return `
-    # ${res.projectName.toUpperCase()}
+# ${res.projectName.toUpperCase()}
 
-    ## Table of Contents
+## Table of Contents
 
 - [Description](#Description)
 - [Installation](#Installation)
@@ -13,25 +13,32 @@ const generateReadMe = res => {
 - [Questions](#Questions)
 
 <div id='Desciption'/>
+
 ## Description
 ${res.description}
 <div id='Installation'/>
+
 ## Installation
 ${res.installation}
 <div id='Usage'/>
+
 ## Usage
 ${res.usage}
 <div id='License'/>
+
 ## License       
 ${res.license}  
 ${renderBadge(res.license)}
 <div id='Contributing'/>
+
 ## Contributing
 ${res.contribution} 
 <div id='Tests'/>
+
 ## Tests
 ${res.test}
 <div id='Questions'/>
+
 ## Questions
 For additional questions or concerns regarding this project, please contact the information below:
 **Contact information**  
