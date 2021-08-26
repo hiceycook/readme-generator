@@ -1,6 +1,5 @@
-const generateReadMe = res => {
-    return `
-    # ${res.projectName}
+
+    # Run Buddy
 
     ## Table of Contents
 
@@ -14,62 +13,26 @@ const generateReadMe = res => {
 
 <div id='Desciption'/>
 ## Description
-${res.description}
+Landing Page
 <div id='Installation'/>
 ## Installation
-${res.installation}
+n/a
 <div id='Usage'/>
 ## Usage
-${res.usage}
+n/a
 <div id='License'/>
 ## License       
-${res.license}  
-${renderBadge(res.license)}
+Apache license 2.0  
+![license](https://img.shields.io/badge/license-Apache%202.0-blue)
 <div id='Contributing'/>
 ## Contributing
-${res.contribution} 
+n/a 
 <div id='Tests'/>
 ## Tests
-${res.test}
+n/a
 <div id='Questions'/>
 ## Questions
 For additional questions or concerns regarding this project, please contact the information below:
 **Contact information**  
-GitHub: github.com/${res.githubUser}  
-Email: ${res.email}
-`;
-};
-
-
-function renderBadge(license) {
-    if (license) {
-        return `![license](https://img.shields.io/badge/license-Apache%202.0-blue)`;
-    };
-}
-
-// to allow 'generateReadMe' to be called from index.js
-module.exports = generateReadMe;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GitHub: github.com/hiceycook  
+Email: hiceycook@gmail.com
