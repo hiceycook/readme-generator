@@ -56,9 +56,25 @@ const questions = [
         type: "checkbox",
         name: 'license',
         message: "Select the license for this project",
-        choices: ['Apache license 2.0', 'GNU General Public License v3.0', 'MIT', 'BSD 2-clause "Simplified" license',
-            'BSD 3-clause "New" or "Revised" license', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense']
+        choices: [
+            {
+                name: 'Apache License 2.0',
+                value: "Apache License 2.0"
+            },
+            {
+                name: 'GNU General Public License v3.0',
+                value: 'GNU General Public License v3.0'
+            },
+            {
+                name: 'MIT',
+                value: 'MIT'
+            },
+            {
+                name: 'NOT LICENSED',
+                value: 'NOT LICENSED'
+            }],
     },
+
     {
         type: "input",
         name: 'githubUser',

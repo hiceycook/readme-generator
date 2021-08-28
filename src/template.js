@@ -1,6 +1,23 @@
 const generateReadMe = res => {
+    //LICENSE BADGE BEGIN //
+    res.license = JSON.stringify(res.license);
+    let licInfo = res.license;
+    let showLic = "";
+    if (licInfo === '["MIT"]') {
+        licInfo = "MIT License";
+        showLic = "MIT";
+    } else if (licInfo === '["Apache License 2.0"]') {
+        licInfo = "Apache License 2.0"
+        showLic = "Apache%202.0"
+    } else if (licInfo === '["GNU General Public License v3.0"]') {
+        licInfo = 'GNU General Public License v3.0'
+        showLic = "GPLv3"
+    };
+    //LICENSE BADGE END //
+
+    //TEMPLATE BEGIN//
     return `
-# ${res.projectName.toUpperCase()}
+# ${res.projectName.toUpperCase()} ![License](https://img.shields.io/badge/License-${showLic}-blue.svg)
 
 ## Table of Contents
 
@@ -27,8 +44,8 @@ ${res.usage}
 <div id='License'/>
 
 ## License       
-${res.license}  
-${renderBadge(res.license)}
+This projected is covered under: ${licInfo}  
+![License](https://img.shields.io/badge/License-${showLic}-blue.svg)
 <div id='Contributing'/>
 
 ## Contributing
@@ -41,18 +58,13 @@ ${res.test}
 
 ## Questions
 For additional questions or concerns regarding this project, please contact the information below:
-**Contact information**  
+
 GitHub: github.com/${res.githubUser}  
 Email: ${res.email}
 `;
+    //TEMPLATE END
 };
 
-
-function renderBadge(license) {
-    if (license) {
-        return `![license](https://img.shields.io/badge/license-Apache%202.0-blue)`;
-    };
-}
 
 // to allow 'generateReadMe' to be called from index.js
 module.exports = generateReadMe;

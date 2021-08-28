@@ -1,5 +1,5 @@
 
-# TEST
+# TEST ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## Table of Contents
 
@@ -14,32 +14,32 @@
 <div id='Desciption'/>
 
 ## Description
-test
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
 <div id='Installation'/>
 
 ## Installation
-test
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
 <div id='Usage'/>
 
 ## Usage
-test
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
 <div id='License'/>
 
 ## License       
-Apache license 2.0  
-![license](https://img.shields.io/badge/license-Apache%202.0-blue)
+This projected is covered under: Apache License 2.0  
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 <div id='Contributing'/>
 
 ## Contributing
-test 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 <div id='Tests'/>
 
 ## Tests
-test
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
 <div id='Questions'/>
 
 ## Questions
 For additional questions or concerns regarding this project, please contact the information below:
-**Contact information**  
-GitHub: github.com/test  
-Email: test
+
+GitHub: github.com/hiceycook  
+Email: hiceycook@gmail.com
