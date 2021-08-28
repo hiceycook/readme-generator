@@ -1,5 +1,5 @@
 
-# TEST ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+# README.md Generator ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## Table of Contents
 
@@ -11,18 +11,22 @@
 - [Tests](#Tests)
 - [Questions](#Questions)
 
-<div id='Desciption'/>
+<div id='Description'/>
 
 ## Description
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+This is a node.js command line application to generate a README.md file.
 <div id='Installation'/>
 
+## Media
+
+https://user-images.githubusercontent.com/4153530/131225598-58ccdb0e-abb5-4098-888c-9a575f39d15a.mp4
+
 ## Installation
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+To open this generator, you will need to clone the repo and make sure you have access to node.js, and have also installed the Inquirer package from npm.
 <div id='Usage'/>
 
 ## Usage
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+To use this generator, you will open the command line in the project directory and type "node index." This will then prompt you as you fill out your answers to a series of questions that will generate the README.md file.
 <div id='License'/>
 
 ## License       
@@ -31,11 +35,11 @@ This projected is covered under: Apache License 2.0
 <div id='Contributing'/>
 
 ## Contributing
-Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Any suggestions or contributions are welcome! Please reach out with anything.
 <div id='Tests'/>
 
 ## Tests
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
 <div id='Questions'/>
 
 ## Questions
